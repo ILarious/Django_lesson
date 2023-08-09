@@ -1,40 +1,38 @@
-Мой первый API проект на DRF (пример с занятия 07.08.2023)
+# Мой первый API проект на DRF (пример с занятия 07.08.2023)
+
+---
 
 Мой первый проект на djangoRESTFramework
 
+---
 
-Установка
+### Установка
 
+1. Клонировать репозиторий
 
-Клонировать репозиторий
+    ```bash
+    git clone https://github.com/ILarious/Django_lesson.git
+    ```
 
-git clone https://github.com/ILarious/Django_lesson.git
+2. Установить зависимости
 
+    ```bash
+    pip install -r 'requirements.txt'
+    ```
 
+3. Мигрировать БД
 
+    ```bash
+    python manage.py migrate
+    ```
+---
 
-Установить зависимости
+### Запуск
 
-pip install -r 'requirements.txt'
+1. Добавить переменные окружения согласно .env.example
 
+2. Для запуска введите в консоли:
 
-
-
-Мигрировать БД
-
-python manage.py migrate
-
-
-
-
-
-
-Запуск
-
-
-Добавить переменные окружения согласно .env.example
-
-
-Для запуска введите в консоли:
-
-python manage.py runserver
+    ```bash
+    python manage.py runserver
+    ```
